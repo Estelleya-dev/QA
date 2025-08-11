@@ -1,0 +1,30 @@
+{
+  "name": "quantum-ai-frontend",
+  "version": "1.0.0",
+  "description": "Quantum AI 高维智慧问答系统前端",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && ./deploy.sh"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.2.1",
+    "axios": "^1.11.0",
+    "element-plus": "^2.3.8",
+    "pinia": "^2.1.4",
+    "uuid": "^11.1.0",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "sass": "^1.63.6",
+    "tailwindcss": "^4.1.11",
+    "vite": "^7.0.6"
+  }
+}
